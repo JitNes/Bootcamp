@@ -48,6 +48,15 @@ section
 padding: 50px 15%
 }
 
+
+.foto-pruvodce {
+    border-radius: 0 50px 50px 50px;
+}
+
+.foto-kontakt {
+    border-radius: 50px 0 50px 50px;
+}
+
 /*
 font-family: 'Raleway', sans-serif;
 font-family: 'Playfair Display', serif;
