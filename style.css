@@ -1,9 +1,4 @@
-body {
-    margin: 0;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    line-height: 1.5;
-}
+
 
 h1, 
 h2, 
@@ -15,6 +10,7 @@ font-style: italic;
 h1 {
     font-size: 80px;
     text-align: center;
+    color: white;
 }
 
 h2 {
@@ -47,6 +43,38 @@ section
 {
 padding: 50px 15%
 }
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #282425;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #756158;
+}
+
 
 /*
 font-family: 'Raleway', sans-serif;
